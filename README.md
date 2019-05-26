@@ -9,18 +9,18 @@ Neural networks will be used to process the natural language and to calulate the
 ___
 **Project Status**
 
-Further developments will include the lyrics and the neural network
+Further developments will include the neural network analysing lyrics
 
 ___
 **Structure**
 
-The .ipynb scripts are part of the data engineering which includes pulling continents and population data in
+The .ipynb scripts are part of the data engineering which includes pulling tracks, artists, rank on a weekly basis since 1953 and now also includes genres and lyrics where possible (genre match rate 98%), (lyric match rate 98%)
 
 ___
 **Data Sources**
 
-The data source comes from billboard.com (web scraped):
-[Source Data Link](https://www.billboard.com/charts/hot-100)
+The data source comes from a number of web sources and can be seen in the .ipynb script
+Rankings are obtained by combining radio plays, downloads and popularity
 
 ___
 **Author**
